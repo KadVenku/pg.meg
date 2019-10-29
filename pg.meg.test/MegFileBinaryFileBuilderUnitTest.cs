@@ -1,4 +1,3 @@
-using System;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using pg.meg.builder;
@@ -81,12 +80,6 @@ namespace pg.meg.test
         public void MegBuilderBuildFromAttributeTest()
         {
             MegFileUtility.UnpackMegFile(TEST_DATA_PATH_IN, TEST_DATA_PATH_UNPACK_OUT);
-            foreach (string file in Directory.GetFiles(TEST_DATA_PATH_UNPACK_OUT))
-            {
-                Console.Out.WriteLine(file);
-            }
-
-            /*
             MegFileBinaryFileBuilder builder = new MegFileBinaryFileBuilder();
             MegFileAttribute attribute = new MegFileAttribute
             {
@@ -96,7 +89,6 @@ namespace pg.meg.test
             };
             MegFile megFile = builder.Build(attribute);
             Assert.IsNotNull(megFile);
-            */
         }
     }
 }
