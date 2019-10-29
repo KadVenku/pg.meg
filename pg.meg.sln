@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pg.meg", "pg.meg\pg.meg.csproj", "{A6306F20-D834-4B8E-BA81-9126EBB9CABF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{DCB92FA8-239C-4EC1-B769-E3BBA666B184} = {DCB92FA8-239C-4EC1-B769-E3BBA666B184}
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pg.meg.test", "pg.meg.test\pg.meg.test.csproj", "{BF17D9AB-36DA-4F3F-9474-395A08922B51}"
 EndProject
