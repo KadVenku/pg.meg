@@ -1,4 +1,5 @@
 language: csharp
+os: windows
 mono: none
 dotnet: 2.1.502
 solution: pg.meg.sln
