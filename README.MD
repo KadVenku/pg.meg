@@ -1,4 +1,6 @@
-﻿# Mega File Format
+# Mega File Format
+
+> ⚠️ **WARNING**: In an attempt to solidify and unite all Alamo-Engine related tools/libraries made by the Empire at War community, development has been moved to the consolidated [AlamoEngine-Tools/PetroglyphTools](https://github.com/AlamoEngine-Tools/PetroglyphTools) repository.
 
 Implements the Petroglyph v1.0 meg archive file type in `C#`.
 
